@@ -98,17 +98,17 @@ label= "SYM"                               ;
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃     !     ┃     ?     ┃     (     ┃     )     ┃     *     ┃   ┃     =     ┃     [     ┃     ]     ┃     {     ┃     }     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃   LSHFT   ┃     @     ┃     #     ┃     $     ┃     &     ┃     %     ┃   ┃     ^     ┃     +     ┃     -     ┃     _     ┃     `     ┃    RET    ┃
+// ┃   LSHFT   ┃     @     ┃     #     ┃     $     ┃     &     ┃     %     ┃   ┃     ^     ┃     +     ┃     -     ┃     _     ┃     `     ┃     /     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃           ┃           ┃   ┃    ADJ    ┃           ┃           ┃
+//                                     ┃           ┃           ┃     \     ┃   ┃    ADJ    ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp KP_N1   &kp KP_N2      &kp KP_N3   &kp KP_N4   &kp KP_N5       &kp KP_N6    &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_N0
                 &kp EXCL    &mt LALT QMARK &kp LPAR    &kp RPAR    &kp ASTERISK    &kp KP_EQUAL &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC
-    &kp LSHFT   &kp AT      &kp POUND      &kp DOLLAR  &kp AMPS    &kp PERCENT     &kp CARET    &kp PLUS    &kp MINUS   &kp UNDER   &kp GRAVE &kp RET
-                                           &trans      &trans      &trans          &mo ADJ      &kp KP_N0   &trans      
+    &kp LSHFT   &kp AT      &kp POUND      &kp DOLLAR  &kp AMPS    &kp PERCENT     &kp CARET    &kp PLUS    &kp MINUS   &kp UNDER   &kp GRAVE &kp SLASH
+                                           &trans      &trans      &kp BSLH        &mo ADJ      &kp KP_N0   &trans      
                         >;
                 };
 
