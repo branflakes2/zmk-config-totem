@@ -80,7 +80,7 @@ label= "BASE"                              ;
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
                 &kp SQT     &kp COMMA   &kp DOT     &kp P       &kp Y           &kp F       &kp G       &kp C       &kp R       &kp L
-                &kp A       &mt LALT O  &mt LCTRL E &kp U       &kp I           &kp D       &kp H       &kp T       &kp N       &kp S
+                &kp A       &mt LALT O  &mt LCTRL E &kp U       &kp I           &kp D       &kp H       &kp T       &mt RALT N  &kp S
     &kp LSHFT   &kp SEMI    &kp Q       &kp J       &kp K       &kp X           &kp B       &kp M       &kp W       &kp V       &kp Z        &kp RET
                                         &kp DEL     &lt NAV TAB &kp SPACE       &kp SPACE   &lt SYM ESC &kp BSPC
                         >;
@@ -105,9 +105,9 @@ label= "SYM"                               ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp N1      &kp N2         &kp N3      &kp N4      &kp N5          &kp N6    &kp N7      &kp N8      &kp N9      &kp N0
-                &kp EXCL    &mt LALT QMARK &kp LPAR    &kp RPAR    &kp ASTERISK    &kp EQUAL &kp LBKT    &kp RBKT    &kp LBRC    &kp RBRC
-    &kp LSHFT   &kp AT      &kp POUND      &kp DOLLAR  &kp AMPS    &kp PERCENT     &kp CARET    &kp PLUS    &kp MINUS   &kp UNDER   &kp GRAVE &kp SLASH
+                &kp N1      &kp N2         &kp N3      &kp N4      &kp N5          &kp N6    &kp N7      &kp N8      &kp N9        &kp N0
+                &kp EXCL    &mt LALT QMARK &kp LPAR    &kp RPAR    &kp ASTERISK    &kp EQUAL &kp LBKT    &kp RBKT    &mt RALT LBRC &kp RBRC
+    &kp LSHFT   &kp AT      &kp POUND      &kp DOLLAR  &kp AMPS    &kp PERCENT     &kp CARET &kp PLUS    &kp MINUS   &kp UNDER     &kp GRAVE &kp SLASH
                                            &trans      &trans      &kp BSLH        &mo ADJ      &trans      &trans      
                         >;
                 };
